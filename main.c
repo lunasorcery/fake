@@ -52,7 +52,8 @@ int main(int argc, char** argv)
 
 	// prepare build targets
 	printf("Checking files:\n");
-	for (int i = 0; i <= numFiles; ++i) {
+	for (int i = 0; i <= numFiles; ++i)
+	{
 		progressBar(i, numFiles);
 		usleep(speedScale * 10 * (rand() & 31));
 	}
@@ -60,7 +61,8 @@ int main(int argc, char** argv)
 
 	// sanity checking
 	printf("Extra sanity checks:\n");
-	for (int i = 0; i <= numFiles; ++i) {
+	for (int i = 0; i <= numFiles; ++i)
+	{
 		progressBar(i, numFiles);
 		usleep(speedScale * 10 * (rand() & 31));
 		if ((rand() & 0xff) == 0)
@@ -73,7 +75,8 @@ int main(int argc, char** argv)
 
 	// sentience
 	printf("Achieving sentience:\n");
-	for (int i = 0; i <= 100; ++i) {
+	for (int i = 0; i <= 100; ++i)
+	{
 		progressBar(i, 100);
 		usleep(speedScale * 25 * (rand() & 31));
 		if ((rand() & 0xff) == 0)
@@ -86,7 +89,8 @@ int main(int argc, char** argv)
 
 	// build!
 	printf("Building:\n");
-	for (int i = 0; i <= numFiles; ++i) {
+	for (int i = 0; i <= numFiles; ++i)
+	{
 		progressBar(i, numFiles);
 		usleep(speedScale * 100 * (rand() & 31));
 		if ((rand() & 0x3f) == 0 || i == (numFiles - 1))
