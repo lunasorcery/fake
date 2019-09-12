@@ -33,6 +33,6 @@ We're working on it.
 [license]: #license
 Fake is distributed under the terms of the WTFPL. See [LICENSE](LICENSE) for more details.
 
-### Is just this another silly joke you've really over-committed to?
+### Is this just another silly joke you've really over-committed to?
 [joke]: #joke
 No comment.
